@@ -1,0 +1,141 @@
+/* nav style */
+nav{
+    display: flex;
+    gap: 1000px;
+    margin: 20px;
+}
+/* page -1  */
+.page-1{
+    background-image: url('../assets/Hero-bg.png');
+    width: 1440px;
+    height: 652px;
+}
+.container{
+    width: 998px;
+    height: 581px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: undefined;
+    margin: 0 auto;
+}
+img{
+width: 130.57px;
+height: 136.89px;
+}
+.first-l{
+    color: rgba(13, 19, 33, 1);
+font-family: Azeret Mono;
+font-size: 48px;
+font-weight: 800;
+line-height: 68px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 30px;
+}
+.second-l{
+    color: rgba(13, 19, 33, 1);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 0;
+}
+.btn{
+    width: 244px;
+height: 65px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: undefined;
+padding: 21px 24px 21px 24px;
+border-radius: 8px;
+background: rgba(13, 19, 33, 1);
+width: 196px;
+height: 23px;
+color: rgba(255, 255, 255, 1);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+cursor: pointer;
+}
+.btn:hover{
+    background: #2ecc71;
+}
+/* page-2 */
+.page-2{
+   /* Frame 13 */
+width: 1140px;
+height: 1393px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: undefined;
+padding: 80px 97px 80px 97px;
+}
+.cont-1{
+    display: flex;
+    gap: 20px;
+}
+.f-cont{
+    margin-top: 0px;
+}
+.title {
+    color: rgba(13, 19, 33, 1);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+}
+.title-desc{
+    color: rgba(13, 19, 33, 1);
+    width: 852px;
+height: 52px;
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+}
+.text-1{
+    color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
+.text-2{
+    color: rgba(13, 19, 33, 1);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+}
+.btn-2{
+    width: 171px;
+height: 47px;
+}
+.img-f{
+    width: 374.17px;
+height: 240px;
+margin-top: 30px;
+}

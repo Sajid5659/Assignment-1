@@ -1,14 +1,15 @@
 /* nav style */
 nav{
     display: flex;
-    gap: 1000px;
-    margin: 20px;
+    justify-content: space-between;
+    margin: 50px 70px;
 }
 /* page -1  */
 .page-1{
     background-image: url('../assets/Hero-bg.png');
     width: 1440px;
     height: 652px;
+    margin: 0 auto;
 }
 .container{
     width: 998px;
@@ -16,12 +17,13 @@ nav{
     /* Auto layout */
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    gap: undefined;
     margin: 0 auto;
+    gap: undefined;
 }
-img{
+.img-1{
+    margin-top: 24px;
 width: 130.57px;
 height: 136.89px;
 }
@@ -46,19 +48,15 @@ text-align: center;
 margin-top: 0;
 }
 .btn{
-    width: 244px;
-height: 65px;
 /* Auto layout */
 display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
 gap: undefined;
-padding: 21px 24px 21px 24px;
+padding: 21px 24px;
 border-radius: 8px;
 background: rgba(13, 19, 33, 1);
-width: 196px;
-height: 23px;
 color: rgba(255, 255, 255, 1);
 font-family: Azeret Mono;
 font-size: 20px;
@@ -76,6 +74,7 @@ cursor: pointer;
    /* Frame 13 */
 width: 1140px;
 height: 1393px;
+margin: 0 auto;;
 /* Auto layout */
 display: flex;
 flex-direction: column;

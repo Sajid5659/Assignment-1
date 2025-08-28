@@ -73,7 +73,7 @@ cursor: pointer;
 .page-2{
    /* Frame 13 */
 width: 1140px;
-height: 1393px;
+height: 1200px;
 margin: 0 auto;;
 /* Auto layout */
 display: flex;
@@ -101,8 +101,8 @@ text-align: center;
 }
 .title-desc{
     color: rgba(13, 19, 33, 1);
-    width: 852px;
-height: 52px;
+    /* width: 852px;
+height: 52px; */
 font-family: Azeret Mono;
 font-size: 16px;
 font-weight: 400;
@@ -137,4 +137,25 @@ height: 47px;
     width: 374.17px;
 height: 240px;
 margin-top: 30px;
+}
+.inspiration{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: undefined;
+/* text-align: center; */
+margin: 80px 0;
+}
+.inspiration-video{
+    width: 100%;
+    border-radius: 16px;
+}
+.inspiration .title-desc{
+    margin-bottom: 50px;
+}
+.inspiration-class{
+    width: 1000px;
+    margin: 0 auto;
+    
 }

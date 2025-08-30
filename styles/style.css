@@ -47,8 +47,10 @@ letter-spacing: 0%;
 text-align: center;
 margin-top: 0;
 }
-.btn{
-/* Auto layout */
+.page-1 a{
+    text-decoration: none;
+}
+.page-1 button{
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -66,7 +68,7 @@ letter-spacing: 0%;
 text-align: center;
 cursor: pointer;
 }
-.btn:hover{
+.page-1 button:hover{
     background: #2ecc71;
 }
 /* page-2 */
@@ -232,5 +234,96 @@ margin: 0 auto;
     border-radius: 16px;
     margin: 24px 0px 24px;
 }
+/* support style */
+.support {
+    margin: 48px 0px 80px;
+   /* width: 1140px; */
+}
+.s-container {
+    margin: 0px auto;
+    width: 900px;
+    height: 230px;
+    background: linear-gradient(180.00deg, rgba(7, 2, 17, 0.5)), url('../assets/handshake.jpg');
+    /* background-position: center; */
+    background-size: auto;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    padding: 64px 48px;
+}
+.s-title {
+    color: white;
+    font-weight: 700;
+    margin: 16px 0px 16px;
+    color: rgba(255, 255, 255, 1);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    padding: 0px 300px;
+}
+.s-desc {
+    width: 850px;
+    color: white;
+    opacity: 0.7;
+    color: rgba(255, 255, 255, 1);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    padding: 0 50px;
+}
+.support-details form input[type="text"] {
+    width: 480px;
+    padding: 16px 30px;
+    border-radius: 8px;
+    border: none;
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-weight: 400;
+}
+.support-details form input[type="submit"] {
+    padding: 10px 30px;
+    border-radius: 6px;
+    border: none;
+    color: rgba(13, 19, 33, 1);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: white;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    cursor: pointer;
+}
+.support-details form {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin: 24px 0px 64px;
+    padding-left: 100px;
+}
+/* footer */
+.footer{
+    margin: auto;
+}
+ .footer-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 0;
+    /* gap: 500px; */
+}
 
-
+.footer-content h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(13, 19, 33, 1);
+}
+.footer-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+ }
+ .f-container{
+    margin: 0px auto;
+    width: 998px;
+ }
